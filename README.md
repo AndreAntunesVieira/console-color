@@ -2,9 +2,9 @@
 
 Node server console upgrate, to create console.logs with colors with a simple form, without any other modules.
 
-## Instalation ##
+## Install ##
 
-npm install simple-console-color
+npm i simple-console-color
 
 ## Usage ##
 
@@ -49,6 +49,6 @@ console.logRed('Print text in color Red');
 console.log(console.red('Print text in color Red'));  
 console.log('Print text in color', console.red('Red'));  
 console.log('Print text in color ' + console.red('Red') + ' or ' + console.blue('Blue'));  
-console.log('Print text in color ' + console.red('Red') + ' or ' + console.blue('Blue') + ' or ' + console.green('Green'));  
+console.log(console.red('Red') + ' or ' + console.blue('Blue') + ' or ' + console.green('Green'));
 
 ![alt text](https://raw.githubusercontent.com/AndreAntunesVieira/console-color/master/samples/samples-1.png "Sample 1")

@@ -38,4 +38,4 @@ console.logRed('\n\nPrint text in color Red'); // Print text in color Red
 console.log(console.red('Print text in color Red')); // This text will be converted to color red
 console.log('Print text in color', console.red('Red')); // This text will be converted to color red
 console.log('Print text in color ' + console.red('Red') + ' or ' + console.blue('Blue')); // This text will be converted to color red or blue
-console.log('Print text in color ' + console.red('Red') + ' or ' + console.blue('Blue') + ' or ' + console.green('Green')); // This text will be converted to color red or blue or green
+console.log(console.red('Red') + ' or ' + console.blue('Blue') + ' or ' + console.green('Green')); // red or blue or green

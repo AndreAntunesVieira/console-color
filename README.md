@@ -43,9 +43,6 @@ Native javascript console.log keep the same, new methods are addicteds:
     ✓ console.bg.white('This text will be converted to background color white');  
     ✓ console.bg.crimson('This text will be converted to background color crimson');  
 
-
-## Samples ##
-
 ## Samples ##
 
 console.logRed('Print text in color Red');  

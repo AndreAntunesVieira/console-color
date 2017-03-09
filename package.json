@@ -1,6 +1,6 @@
 {
   "name": "simple-console-color",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "npm module to upgrade console logs with colors",
   "main": "dist/console-color.min.js",
   "scripts": {

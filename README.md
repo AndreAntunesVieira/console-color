@@ -11,7 +11,7 @@ npm i simple-console-color
 Native javascript console.log keep the same, new methods are addicteds:
 
  - Console.logColors  
-    ✓ console.logBlack('Print text in color Black');  
+    ✓ console.logBlack('Print text in color Black');  
     ✓ console.logRed('Print text in color Red');  
     ✓ console.logGreen('Print text in color Green');  
     ✓ console.logYellow('Print text in color Yellow');  
@@ -29,7 +29,7 @@ Native javascript console.log keep the same, new methods are addicteds:
     ✓ console.blue('This text will be converted to color blue');  
     ✓ console.magenta('This text will be converted to color magenta');  
     ✓ console.cyan('This text will be converted to color cyan');  
-    ✓ console.white('This text will be converted to color white');  k
+    ✓ console.white('This text will be converted to color white');  
     ✓ console.crimson('This text will be converted to color crimson');  
 
  - Juts Background colors ( Must be used inside console.log() )  

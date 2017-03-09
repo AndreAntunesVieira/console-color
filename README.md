@@ -46,10 +46,12 @@ Native javascript console.log keep the same, new methods are addicteds:
 
 ## Samples ##
 
-console.logRed('Print text in color Red');
-console.log(console.red('Print text in color Red'));
-console.log('Print text in color', console.red('Red'));
-console.log('Print text in color ' + console.red('Red') + ' or ' + console.blue('Blue'));
-console.log('Print text in color ' + console.red('Red') + ' or ' + console.blue('Blue') + ' or ' + console.green('Green'));
+## Samples ##
+
+console.logRed('Print text in color Red');  
+console.log(console.red('Print text in color Red'));  
+console.log('Print text in color', console.red('Red'));  
+console.log('Print text in color ' + console.red('Red') + ' or ' + console.blue('Blue'));  
+console.log('Print text in color ' + console.red('Red') + ' or ' + console.blue('Blue') + ' or ' + console.green('Green'));  
 
 ![alt text](https://raw.githubusercontent.com/AndreAntunesVieira/console-color/master/samples/samples-1.png "Sample 1")

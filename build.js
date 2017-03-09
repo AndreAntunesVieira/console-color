@@ -41,7 +41,6 @@
   }
 
   function uglifyCode(code){
-    console.log(code);
     const ast = babylon.parse(code, {allowReturnOutsideFunction: true});
     const babResponse = babel.transformFromAst(ast, code, {ast: false, comments: false, minified: true});
     return UglifyJS.minify(babResponse.code, {fromString: true}).code
@@ -50,9 +49,6 @@
   function compileEachSourceFile(fileName){
     return new Promise(function(success, fail){
       fs.readFile('src/'+fileName, 'utf8', function(err, code) {
-        console.log(code);
-        console.log('uglifyCode(code)');
-        console.log(uglifyCode(code));
         let fullFileName = fileName.split('.');
         let extension = fullFileName.pop();
         var minFileName = fullFileName.join('.') + '.min.' + extension;
@@ -61,7 +57,7 @@
             fail(err)
           }
           else{
-            console.log('Compilado e salvo: ' + fileName);
+            console.log('Compiled and saved: ' + minFileName);
             success()
           }
         })

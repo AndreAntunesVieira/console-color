@@ -29,7 +29,7 @@ Native javascript console.log keep the same, new methods are addicteds:
     ✓ console.blue('This text will be converted to color blue');  
     ✓ console.magenta('This text will be converted to color magenta');  
     ✓ console.cyan('This text will be converted to color cyan');  
-    ✓ console.white('This text will be converted to color white');  
+    ✓ console.white('This text will be converted to color white');  k
     ✓ console.crimson('This text will be converted to color crimson');  
 
  - Juts Background colors ( Must be used inside console.log() )  
@@ -48,4 +48,4 @@ Native javascript console.log keep the same, new methods are addicteds:
 
 console.logRed('Print text in color Red');
 console.log(console.red('Print text in color Red'));
-console.log('Print text in color', console.red('Red'));
+console.log('Print text in color', console.red('Red'));add sample images

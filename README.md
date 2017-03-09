@@ -46,6 +46,6 @@ Native javascript console.log keep the same, new methods are addicteds:
 
 ## Samples ##
 
-console.logRed('Print text in color Red'); // <font color="red">Print text in color Red</font>  
-console.log(console.red('Print text in color Red')); // <font color="red">Print text in color Red</font>  
-console.log('Print text in color', console.red('Red')); // Print text in color <font color="red">Red</font>  >
+console.logRed('Print text in color Red');
+console.log(console.red('Print text in color Red'));
+console.log('Print text in color', console.red('Red'));

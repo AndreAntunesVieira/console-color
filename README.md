@@ -44,8 +44,8 @@ Native javascript console.log keep the same, new methods are addicteds:
     ✓ console.bg.crimson('This text will be converted to background color crimson');  
 
 
-## Samples ##  
+## Samples ##
 
-console.logRed('Print text in color Red'); // <span style="color: red;">Print text in color Red</span>  
-console.log(console.red('Print text in color Red')); // <span style="color: red;">Print text in color Red  </span>
-console.log('Print text in color', console.red('Red')); // Print text in color <span style="color: red;">Red</span>  
+console.logRed('Print text in color Red'); // <font color="red">Print text in color Red</font>  
+console.log(console.red('Print text in color Red')); // <font color="red">Print text in color Red</font>  
+console.log('Print text in color', console.red('Red')); // Print text in color <font color="red">Red</font>  >
